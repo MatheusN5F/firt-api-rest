@@ -1,0 +1,22 @@
+{
+    "name": "firt-api-rest",
+    "version": "0.0.1",
+    "lockfileVersion": 3,
+    "requires": true,
+    "main": "index.js",
+    "lincense": "MIT",
+    "scripts": {
+        "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+    },
+    "devDependencies": {
+        "@types/bcryptjs": "^2.4.2",
+        "@types/express": "^4.17.17",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.9.5"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "express": "^4.18.2",
+        "mongoose": "^7.0.1"
+    }
+}
